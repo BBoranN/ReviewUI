@@ -4,7 +4,7 @@ import Login from "./Login.vue";
 </script>
 
 <template>
-    <div id="landing">
+    <div class="Landing">
         <img src="../../images/Ekran görüntüsü 2023-12-12 182644.png">
         <div id="login-div">
             <div></div>
@@ -16,7 +16,7 @@ import Login from "./Login.vue";
 
 <style scoped>
 
-#landing{
+.Landing{
     display:grid;
     grid-template-columns: 60% 40%;
     width: 100%;

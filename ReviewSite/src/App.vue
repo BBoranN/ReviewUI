@@ -3,7 +3,7 @@ import LandingPage from "./components/landing.vue";
 </script>
 
 <template>
-  <LandingPage/>
+  <router-view></router-view>
 </template>
 
 <style >
